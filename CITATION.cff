@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "CSV_indexer"
+message: "If you use this software in your research, please cite it as follows."
+type: software
+authors:
+  - family-names: "Polidoro"
+    given-names: "Riccardo Maria"
+    orcid: "https://orcid.org/0009-0001-3885-9625"
+    affiliation: "PASAPmed National Interest PhD Program"
+repository-code: "https://github.com/Riky811/CSV_indexer"
+url: "https://github.com/Riky811/CSV_indexer"
+license: "GPL-3.0"
+version: "1.0.0"
+date-released: 2026-02-14
+abstract: >
+  CSV_indexer is a lightweight tool that recursively scans directories
+  and generates a structured CSV file containing file names and absolute paths.
+  It supports efficient indexing and retrieval of large external data archives,
+  enhancing data traceability and research workflow resilience.
+keywords:
+  - research data management
+  - file indexing
+  - powershell
+  - open source software
+  - data governance
