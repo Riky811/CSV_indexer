@@ -65,6 +65,3 @@ If you want to convert many CSV indexes (for example the index for a folder plus
 
 Notes:
 - The converter uses Excel COM automation, so Excel must be installed on the machine where you run it.
-- If you prefer not to rely on Excel, I can add an alternative using the PowerShell `ImportExcel` module (`Export-Excel`) which can write `.xlsx` without Excel installed — you'll need to install that module via `Install-Module -Name ImportExcel`.
-
-If you want, I can also modify `index_folder.ps1` to optionally write a separate CSV for every subfolder (one CSV per folder) and then call the bulk converter automatically so you end up with an `.xlsx` for each folder and subfolder. Would you like that behavior wired up automatically when indexing recursively?
