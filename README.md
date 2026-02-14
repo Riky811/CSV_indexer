@@ -38,10 +38,8 @@ index_folder.bat "D:\MyArchive\ProjectFolder" "D:\Indexes\ProjectFolder_index.cs
 Notes and limitations:
 - The script is written to be simple and portable. It uses PowerShell v5.1+ features. On most Windows 10/11 systems PowerShell v5.1 is available.
 - CSV is the default output because it's universally readable by Excel. The optional XLSX conversion depends on Excel being installed and available via COM automation.
-- Directory `Size` is left blank. Computing recursive directory sizes can be slow on large trees; if you want folder sizes, I can add an optional (slower) mode that aggregates file sizes per folder.
+- Directory `Size` is left blank. Computing recursive directory sizes can be slow on large trees; an optional (slower) mode that aggregates file sizes per folder could be added.
 - The script attempts to handle paths with spaces by quoting arguments; keep the `.bat` and `.ps1` together in the same folder.
-
-If you'd like any changes (add file checksums, include owner/permissions, compute directory sizes, or output to a single `.xlsx` natively without requiring Excel), tell me which feature to add and I'll update the scripts.
 
 Bulk CSV → XLSX conversion
 --------------------------
