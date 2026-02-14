@@ -1,6 +1,6 @@
 # CSV_folder-indexer
 batch and powershell script that indexes all directories, archives and files within a folder and its subfolders.
-by Riccardo M. Polidoro
+Made with love by Riky811.
 This repository contains a small Windows-friendly tool to create an Excel-ready index of all files and subfolders inside a given folder.
 
 Files:
